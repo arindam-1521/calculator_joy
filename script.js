@@ -11,7 +11,11 @@ arr.forEach((button) => {
             string = eval(string)
             string = string.toPrecision(8)
             input.value = string;
-        } else if (e.target.innerHTML == "AC") {
+        } else if (e.target.innerHTML == "×") {
+            string += "*"
+            input.value = string;
+        }
+        else if (e.target.innerHTML == "AC") {
             string = ""
             input.value = string;
         } else if (e.target.innerHTML == "DEL") {
