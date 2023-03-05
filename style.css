@@ -80,23 +80,23 @@ button:active {
     }
 
     div div textarea {
-        width: 240px;
         font-size: 25px !important;
+        width: 240px;
     }
 }
 
 @media (max-width:290px) {
     div div textarea {
-        width: 200px;
         font-size: 20px !important;
+        width: 200px;
         margin: 8px;
     }
 
     button {
         font-size: 14px !important;
-        height: 40px;
-        width: 40px;
         margin: 8px !important;
         margin: 7px !important;
+        height: 40px;
+        width: 40px;
     }
 }
