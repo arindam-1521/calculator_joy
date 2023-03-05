@@ -9,6 +9,7 @@ arr.forEach((button) => {
     button.addEventListener("click", (e) => {
         if (e.target.innerHTML == "=") {
             string = eval(string)
+            string = string.toPrecision(8)
             input.value = string;
         } else if (e.target.innerHTML == "AC") {
             string = ""
