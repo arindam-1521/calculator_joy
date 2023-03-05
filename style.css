@@ -81,13 +81,14 @@ button:active {
 
     div div textarea {
         width: 240px;
+        font-size: 25px !important;
     }
 }
 
 @media (max-width:290px) {
     div div textarea {
         width: 200px;
-        font-size: 33px;
+        font-size: 20px !important;
         margin: 8px;
     }
 
