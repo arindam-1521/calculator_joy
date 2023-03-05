@@ -20,7 +20,7 @@ body {
         inset 5px 5px 15px rgba(0, 0, 0, 0.297);
 }
 
-div div input {
+div div textarea {
     width: 320px;
     border: none;
     padding: 24px;
@@ -32,7 +32,7 @@ div div input {
     cursor: pointer;
 }
 
-input::placeholder {
+textarea::placeholder {
     color: white;
 }
 
