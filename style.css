@@ -59,6 +59,7 @@ button:hover {
 button:active {
     background: rgb(255, 81, 0);
     color: white;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .equalBtn {
