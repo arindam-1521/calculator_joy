@@ -83,3 +83,19 @@ button:active {
         width: 240px;
     }
 }
+
+@media (max-width:290px) {
+    div div textarea {
+        width: 200px;
+        font-size: 33px;
+        margin: 8px;
+    }
+
+    button {
+        font-size: 14px !important;
+        height: 33px;
+        width: 33px;
+        margin: 8px !important;
+        margin: 6px !important;
+    }
+}
