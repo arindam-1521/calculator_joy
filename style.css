@@ -1,0 +1,58 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452)
+}
+
+.calculator {
+    /* border: 2px solid #717377; */
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.11), 15px 10px 10px rgba(0, 0, 0, 0.326),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.119),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.297);
+}
+
+div div input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    border-radius: 20px;
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px !important;
+    border-radius: 100px !important;
+    background: transparent;
+    color: white;
+    font-size: 24px !important;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.084), 10px 10px 10px rgba(0, 0, 0, 0.326),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.095),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.278);
+}
+
+.equalBtn{
+    background-color: orangered;
+}
+.operator{
+    color: rgb(34, 255, 34);
+}
