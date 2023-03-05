@@ -6,6 +6,8 @@
     font-family: "poppins";
 }
 
+
+
 body {
     background: linear-gradient(45deg, #0a0a0a, #3a4452)
 }
@@ -68,4 +70,16 @@ button:active {
 
 .operator {
     color: rgb(34, 255, 34);
+}
+
+@media (max-width:430px) {
+    button {
+        font-size: 17px !important;
+        height: 40px;
+        width: 40px;
+    }
+
+    div div textarea {
+        width: 240px;
+    }
 }
