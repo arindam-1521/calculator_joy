@@ -12,7 +12,7 @@ body {
 
 .calculator {
     /* border: 2px solid #717377; */
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     background: transparent;
     box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.11), 15px 10px 10px rgba(0, 0, 0, 0.326),
@@ -40,7 +40,7 @@ button {
     border: none;
     width: 60px;
     height: 60px;
-    margin: 10px !important;
+    margin: 8px !important;
     border-radius: 100px !important;
     background: transparent;
     color: white;
@@ -50,9 +50,10 @@ button {
         inset 5px 5px 15px rgba(0, 0, 0, 0.278);
 }
 
-.equalBtn{
+.equalBtn {
     background-color: orangered;
 }
-.operator{
+
+.operator {
     color: rgb(34, 255, 34);
 }
